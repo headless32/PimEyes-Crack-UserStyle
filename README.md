@@ -9,6 +9,6 @@ Although the URLs are obfuscated and cropped to 30 characters, you might still b
 
 This CSS style also removes the "buy premium" overlay from the images, so you can download them or reverse-image-search them with an [addon like search-by-image](https://github.com/dessant/search-by-image). Although in recent updates, they made it so everything but the face is blurred. *You'll have to crop the face, and reverse image search _that_* and hope to get the original picture.
 
-You can either load the styles in ``styles.css`` manually, or import ``userstyle-import`.json`` from the [Stylus Add-on](https://addons.mozilla.org/en-US/firefox/addon/styl-us/).
+You can either load the styles in ``styles.css`` manually, or import ``userstyle-import.json`` from the [Stylus Add-on](https://addons.mozilla.org/en-US/firefox/addon/styl-us/).
 
 BTW, you can use any VPN/Proxy to bypass the search-limit. Just make sure to clean all storage for that domain before doing that (Cookies, Site Preferences, Cache, Indexed DB, Local Storage, Service Workers, and Plugin Data); To facilitate this, I recommend the [Cookie AutoDelete Add-on](https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/).
