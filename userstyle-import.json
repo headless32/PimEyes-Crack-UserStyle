@@ -5,19 +5,30 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"installDate": 1593103750700,
-		"name": "PimEyes Crack",
+		"installDate": 1593117567600,
+		"sourceCode": "/* ==UserStyle==\n@name           PimEyes Crack\n@namespace      github.com/PinkDev1/PimEyes-Crack-UserStyle\n@version        2.0.0\n@description    Allows easier use of the FREE version of PimEyes\n@author         PinkDev1\n==/UserStyle== */\n\n@-moz-document domain(\"pimeyes.com\") {\n\n    /*Un-blur the URLs*/\n    .blurred-source-url{\n        user-select: all !important;;\n    }\n\n    /*Make the URLs selectable, and visible*/\n    span{\n        filter: none !important;;\n        overflow: visible !important;;\n        user-select: initial !important;;\n        max-width: initial !important;;\n        pointer-events: none !important;;\n    }\n\n    /*Remove the Buy Premium overlay on images*/\n    .zoom {\n        display: none !important;;\n    }\n    \n    /*Remove the actions menu, so we can select the image*/\n    .actions {\n        display: none !important;;\n    }\n    \n\n    /*Hide UNLOCK buttons*/\n    button[type=\"button\"] {\n        display: none !important;;\n    }\n    \n}",
 		"sections": [
 			{
-				"code": ".blurred-source-url{\n  user-select: all !important;;\n}\n\nspan{\n\tfilter: none !important;;\n}\n\n.zoom {\n  display: none !important;;\n}",
+				"code": "/*Un-blur the URLs*/\n    .blurred-source-url{\n        user-select: all !important;;\n    }\n\n    /*Make the URLs selectable, and visible*/\n    span{\n        filter: none !important;;\n        overflow: visible !important;;\n        user-select: initial !important;;\n        max-width: initial !important;;\n        pointer-events: none !important;;\n    }\n\n    /*Remove the Buy Premium overlay on images*/\n    .zoom {\n        display: none !important;;\n    }\n    \n    /*Remove the actions menu, so we can select the image*/\n    .actions {\n        display: none !important;;\n    }\n    \n\n    /*Hide UNLOCK buttons*/\n    button[type=\"button\"] {\n        display: none !important;;\n    }",
+				"start": 40,
 				"domains": [
 					"pimeyes.com"
 				]
 			}
 		],
-		"updateDate": 1593106090400,
-		"_id": "9fe1a054-2322-4847-9762-3c1ed77a9e25",
-		"_rev": 1593106090400,
-		"id": 9
+		"usercssData": {
+			"name": "PimEyes Crack",
+			"namespace": "github.com/PinkDev1/PimEyes-Crack-UserStyle",
+			"version": "2.0.0",
+			"description": "Allows easier use of the FREE version of PimEyes",
+			"author": "PinkDev1"
+		},
+		"author": "PinkDev1",
+		"description": "Allows easier use of the FREE version of PimEyes",
+		"name": "PimEyes Crack",
+		"updateDate": 1611193269700,
+		"_id": "10b44d35-c329-4470-b71c-2916696a878e",
+		"_rev": 1611193269700,
+		"id": 10
 	}
 ]

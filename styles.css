@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           PimEyes Crack
 @namespace      github.com/PinkDev1/PimEyes-Crack-UserStyle
-@version        1.0.0
+@version        2.0.0
 @description    Allows easier use of the FREE version of PimEyes
 @author         PinkDev1
 ==/UserStyle== */
@@ -13,13 +13,29 @@
         user-select: all !important;;
     }
 
-    /*Make the URLs selectable*/
+    /*Make the URLs selectable, and visible*/
     span{
         filter: none !important;;
+        overflow: visible !important;;
+        user-select: initial !important;;
+        max-width: initial !important;;
+        pointer-events: none !important;;
     }
 
     /*Remove the Buy Premium overlay on images*/
     .zoom {
         display: none !important;;
     }
+    
+    /*Remove the actions menu, so we can select the image*/
+    .actions {
+        display: none !important;;
+    }
+    
+
+    /*Hide UNLOCK buttons*/
+    button[type="button"] {
+        display: none !important;;
+    }
+    
 }
