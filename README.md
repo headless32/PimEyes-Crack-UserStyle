@@ -11,4 +11,4 @@ These CSS style also removes the "buy premium" overlay from the images, so you c
 
 You can either load the styles in ``styles.css`` manually, or import ``userstyle-import`.json`` from the [Stylus Add-on](https://addons.mozilla.org/en-US/firefox/addon/styl-us/).
 
-BTW, you can use any VPN/Proxy to bypass the search-limit. Just make sure to clean all storage for that domain before doing that (Cookies, Site Preferences, Cache, Indexed DB, Local Storage, Service Workers, and Plugin Data).
+BTW, you can use any VPN/Proxy to bypass the search-limit. Just make sure to clean all storage for that domain before doing that (Cookies, Site Preferences, Cache, Indexed DB, Local Storage, Service Workers, and Plugin Data); To facilitate this, I recommend the [Cookie AutoDelete Add-on](https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/).
