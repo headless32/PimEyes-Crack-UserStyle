@@ -8,7 +8,20 @@ This css style un-blurs and un-fades the URLs, removes the "UNLOCK" button and r
 
 ## Installation
 
-You can either load the styles in ``styles.css`` manually, or import ``userstyle-import.json`` from the [Stylus Add-on](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) ([Chrome Version here](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)).
+- Install the the [Stylus Add-on](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) ([Chrome Version here](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne))
+- Download this repo
+- Stylus -> "Manage" -> (on the left side) "Write New Style"
+- Delete all the text, and copy-Paste my code.
+- "Save"
+- Enjoy :)
+
+OR
+
+- Install the the [Stylus Add-on](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) ([Chrome Version here](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne))
+- Download this repo
+- Stylus -> "Manage" -> (on the left down corner) "Import"
+- Select the `userstyle-import.json` file you downloaded.
+- Enjoy :)
 
 
 ## Limitations
