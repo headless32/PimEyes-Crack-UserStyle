@@ -8,14 +8,19 @@ This css style un-blurs and un-fades the URLs, removes the "UNLOCK" button and r
 
 ## Installation
 
-- Install the the [Stylus Add-on](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) ([Chrome Version here](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne))
+Go to [this proyect's GreasyFork Page](https://greasyfork.org/en/scripts/406062-pimeyes-crack) and click the "Install as User Style" *button* (not the question mark besides it, the button). 
+NOTE: You must have the [Stylus Add-on](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) ([Chrome Version here](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)) installed
+
+### OR
+
+- Install the [Stylus Add-on](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) ([Chrome Version here](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne))
 - Download this repo
 - Stylus -> "Manage" -> (on the left side) "Write New Style"
 - Delete all the text, and copy-Paste the contents of `styles.css`
 - "Save"
 - Enjoy :)
 
-OR
+### OR
 
 - Install the the [Stylus Add-on](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) ([Chrome Version here](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne))
 - Download this repo
