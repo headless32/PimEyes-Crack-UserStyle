@@ -1,12 +1,12 @@
 /* ==UserStyle==
 @name           PimEyes Crack
 @namespace      github.com/PinkDev1/PimEyes-Crack-UserStyle
-@version        3.0.0
+@version        4.0.0
 @description    Allows easier use of the FREE version of PimEyes
 @author         PinkDev1
 ==/UserStyle== */
 
-@-moz-document url-prefix("https://pimeyes.com/en/search") {
+@-moz-document regexp("https:\\/\\/pimeyes.com\\/.{2}\\/search\\/.*") {
 
     /*Un-blur the URLs*/
     .blurred-source-url{
@@ -14,12 +14,13 @@
     }
 
     /*Make the URLs selectable, and visible*/
-    span{
+    *.url{
         filter: none !important;;
         overflow: visible !important;;
         user-select: initial !important;;
         max-width: initial !important;;
         pointer-events: none !important;;
+        position: initial !important;
     }
 
     /*Remove the Buy Premium overlay on images*/
@@ -38,9 +39,13 @@
         display: none !important;;
     }
     
-    /*un-ide add picture button*/
+    /*un-hide add picture button*/
     button[class="spacer"] {
         display: inherit !important;;
     }
     
+    /*Remove events from image*/
+    div.thumbnail {
+        pointer-events: none !important;;
+    }
 }

@@ -1,34 +1,35 @@
 [
-	{
-		"enabled": true,
-		"updateUrl": null,
-		"md5Url": null,
-		"url": null,
-		"originalMd5": null,
-		"installDate": 1593117567600,
-		"sourceCode": "/* ==UserStyle==\n@name           PimEyes Crack\n@namespace      github.com/PinkDev1/PimEyes-Crack-UserStyle\n@version        2.0.0\n@description    Allows easier use of the FREE version of PimEyes\n@author         PinkDev1\n==/UserStyle== */\n\n@-moz-document url-prefix(\"https://pimeyes.com/en/search\") {\n\n    /*Un-blur the URLs*/\n    .blurred-source-url{\n        user-select: all !important;;\n    }\n\n    /*Make the URLs selectable, and visible*/\n    span{\n        filter: none !important;;\n        overflow: visible !important;;\n        user-select: initial !important;;\n        max-width: initial !important;;\n        pointer-events: none !important;;\n    }\n\n    /*Remove the Buy Premium overlay on images*/\n    .zoom {\n        display: none !important;;\n    }\n    \n    /*Remove the actions menu, so we can select the image*/\n    .actions {\n        display: none !important;;\n    }\n    \n\n    /*Hide UNLOCK buttons*/\n    button[type=\"button\"] {\n        display: none !important;;\n    }\n    \n    /*un-ide add picture button*/\n    button[class=\"spacer\"] {\n        display: inherit !important;;\n    }\n    \n}",
-		"sections": [
-			{
-				"code": "/*Un-blur the URLs*/\n    .blurred-source-url{\n        user-select: all !important;;\n    }\n\n    /*Make the URLs selectable, and visible*/\n    span{\n        filter: none !important;;\n        overflow: visible !important;;\n        user-select: initial !important;;\n        max-width: initial !important;;\n        pointer-events: none !important;;\n    }\n\n    /*Remove the Buy Premium overlay on images*/\n    .zoom {\n        display: none !important;;\n    }\n    \n    /*Remove the actions menu, so we can select the image*/\n    .actions {\n        display: none !important;;\n    }\n    \n\n    /*Hide UNLOCK buttons*/\n    button[type=\"button\"] {\n        display: none !important;;\n    }\n    \n    /*un-ide add picture button*/\n    button[class=\"spacer\"] {\n        display: inherit !important;;\n    }",
-				"start": 62,
-				"urlPrefixes": [
-					"https://pimeyes.com/en/search"
-				]
-			}
-		],
-		"usercssData": {
-			"name": "PimEyes Crack",
-			"namespace": "github.com/PinkDev1/PimEyes-Crack-UserStyle",
-			"version": "2.0.0",
-			"description": "Allows easier use of the FREE version of PimEyes",
-			"author": "PinkDev1"
-		},
-		"author": "PinkDev1",
-		"description": "Allows easier use of the FREE version of PimEyes",
-		"name": "PimEyes Crack",
-		"updateDate": 1611251382300,
-		"_id": "10b44d35-c329-4470-b71c-2916696a878e",
-		"_rev": 1611251386000,
-		"id": 10
-	}
+  {
+    "enabled": true,
+    "updateUrl": "https://greasyfork.org/scripts/406062-pimeyes-crack/code/PimEyes%20Crack.user.css",
+    "url": "https://greasyfork.org/scripts/406062",
+    "installDate": 1593117567600,
+    "sourceCode": "/* ==UserStyle==\n@name           PimEyes Crack\n@namespace      github.com/PinkDev1/PimEyes-Crack-UserStyle\n@version        4.0.0\n@description    Allows easier use of the FREE version of PimEyes\n@author         PinkDev1\n==/UserStyle== */\n\n@-moz-document regexp(\"https:\\\\/\\\\/pimeyes.com\\\\/.{2}\\\\/search\\\\/.*\") {\n\n    /*Un-blur the URLs*/\n    .blurred-source-url{\n        user-select: all !important;;\n    }\n\n    /*Make the URLs selectable, and visible*/\n    *.url{\n        filter: none !important;;\n        overflow: visible !important;;\n        user-select: initial !important;;\n        max-width: initial !important;;\n        pointer-events: none !important;;\n        position: initial !important;\n    }\n\n    /*Remove the Buy Premium overlay on images*/\n    .zoom {\n        display: none !important;;\n    }\n    \n    /*Remove the actions menu, so we can select the image*/\n    .actions {\n        display: none !important;;\n    }\n    \n\n    /*Hide UNLOCK buttons*/\n    button[type=\"button\"] {\n        display: none !important;;\n    }\n    \n    /*un-hide add picture button*/\n    button[class=\"spacer\"] {\n        display: inherit !important;;\n    }\n    \n    /*Remove events from image*/\n    div.thumbnail {\n        pointer-events: none !important;;\n    }\n}",
+    "sections": [
+      {
+        "code": "/*Un-blur the URLs*/\n    .blurred-source-url{\n        user-select: all !important;;\n    }\n\n    /*Make the URLs selectable, and visible*/\n    *.url{\n        filter: none !important;;\n        overflow: visible !important;;\n        user-select: initial !important;;\n        max-width: initial !important;;\n        pointer-events: none !important;;\n        position: initial !important;\n    }\n\n    /*Remove the Buy Premium overlay on images*/\n    .zoom {\n        display: none !important;;\n    }\n    \n    /*Remove the actions menu, so we can select the image*/\n    .actions {\n        display: none !important;;\n    }\n    \n\n    /*Hide UNLOCK buttons*/\n    button[type=\"button\"] {\n        display: none !important;;\n    }\n    \n    /*un-hide add picture button*/\n    button[class=\"spacer\"] {\n        display: inherit !important;;\n    }\n    \n    /*Remove events from image*/\n    div.thumbnail {\n        pointer-events: none !important;;\n    }",
+        "start": 309,
+        "regexps": [
+          "https:\\/\\/pimeyes.com\\/.{2}\\/search\\/.*"
+        ]
+      }
+    ],
+    "usercssData": {
+      "name": "PimEyes Crack",
+      "namespace": "github.com/PinkDev1/PimEyes-Crack-UserStyle",
+      "version": "4.0.0",
+      "description": "Allows easier use of the FREE version of PimEyes",
+      "author": "PinkDev1"
+    },
+    "author": "PinkDev1",
+    "description": "Allows easier use of the FREE version of PimEyes",
+    "name": "PimEyes Crack",
+    "updateDate": 1617391365200,
+    "_id": "10b44d35-c329-4470-b71c-2916696a878e",
+    "_rev": 1617391365200,
+    "id": 10,
+    "installationUrl": "https://greasyfork.org/scripts/406062",
+    "originalDigest": "7d26744c44417ec81093ea69f7ba8bdb0c5ae0c5",
+    "etag": "W/\"bac2c2e94b3b2de966ffabfcc0e1cd78\""
+  }
 ]

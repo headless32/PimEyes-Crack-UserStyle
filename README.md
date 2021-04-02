@@ -45,3 +45,4 @@ If you have an issue/request/question/etc feel free to open an issue.
 
 ![General view of the site](pics/cap1.jpg)
 ![Search-by-image with the addon](pics/cap2.jpg)
+![The cropped URLs are selectable](pics/cap3.jpg)
