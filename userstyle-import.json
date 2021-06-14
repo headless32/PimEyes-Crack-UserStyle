@@ -3,33 +3,33 @@
     "enabled": true,
     "updateUrl": "https://greasyfork.org/scripts/406062-pimeyes-crack/code/PimEyes%20Crack.user.css",
     "url": "https://greasyfork.org/scripts/406062",
-    "installDate": 1593117567600,
-    "sourceCode": "/* ==UserStyle==\n@name           PimEyes Crack\n@namespace      github.com/PinkDev1/PimEyes-Crack-UserStyle\n@version        4.0.0\n@description    Allows easier use of the FREE version of PimEyes\n@author         PinkDev1\n==/UserStyle== */\n\n@-moz-document regexp(\"https:\\\\/\\\\/pimeyes.com\\\\/.{2}\\\\/search\\\\/.*\") {\n\n    /*Un-blur the URLs*/\n    .blurred-source-url{\n        user-select: all !important;;\n    }\n\n    /*Make the URLs selectable, and visible*/\n    *.url{\n        filter: none !important;;\n        overflow: visible !important;;\n        user-select: initial !important;;\n        max-width: initial !important;;\n        pointer-events: none !important;;\n        position: initial !important;\n    }\n\n    /*Remove the Buy Premium overlay on images*/\n    .zoom {\n        display: none !important;;\n    }\n    \n    /*Remove the actions menu, so we can select the image*/\n    .actions {\n        display: none !important;;\n    }\n    \n\n    /*Hide UNLOCK buttons*/\n    button[type=\"button\"] {\n        display: none !important;;\n    }\n    \n    /*un-hide add picture button*/\n    button[class=\"spacer\"] {\n        display: inherit !important;;\n    }\n    \n    /*Remove events from image*/\n    div.thumbnail {\n        pointer-events: none !important;;\n    }\n}",
+    "installDate": 1620700546600,
     "sections": [
       {
-        "code": "/*Un-blur the URLs*/\n    .blurred-source-url{\n        user-select: all !important;;\n    }\n\n    /*Make the URLs selectable, and visible*/\n    *.url{\n        filter: none !important;;\n        overflow: visible !important;;\n        user-select: initial !important;;\n        max-width: initial !important;;\n        pointer-events: none !important;;\n        position: initial !important;\n    }\n\n    /*Remove the Buy Premium overlay on images*/\n    .zoom {\n        display: none !important;;\n    }\n    \n    /*Remove the actions menu, so we can select the image*/\n    .actions {\n        display: none !important;;\n    }\n    \n\n    /*Hide UNLOCK buttons*/\n    button[type=\"button\"] {\n        display: none !important;;\n    }\n    \n    /*un-hide add picture button*/\n    button[class=\"spacer\"] {\n        display: inherit !important;;\n    }\n    \n    /*Remove events from image*/\n    div.thumbnail {\n        pointer-events: none !important;;\n    }",
-        "start": 309,
+        "code": "/*Un-blur the URLs*/\n    .blurred-source-url{\n        user-select: all !important;;\n    }\n\n    /*Make the URLs selectable, and visible*/\n    *.url{\n        filter: none !important;;\n        overflow: visible !important;;\n        user-select: initial !important;;\n        max-width: initial !important;;\n        pointer-events: none !important;;\n        position: initial !important;\n    }\n\n    /*Remove the Buy Premium overlay on images*/\n    .zoom {\n        display: none !important;;\n    }\n    \n    /*Remove the actions menu, so we can select the image*/\n    .actions {\n        display: none !important;;\n    }\n    \n\n    /*Hide UNLOCK buttons*/\n    button[type=\"button\"] {\n        display: none !important;;\n    }\n    \n    /*un-hide add picture button*/\n    button[class=\"spacer\"] {\n        display: inherit !important;;\n    }\n    \n    /*un-hide upload photo button*/\n    button[class=\"first\"], button[class=\"spacer upload\"], button[class=\"last\"]{\n        display: inherit !important;;\n    }\n    \n    /*Remove events from image*/\n    div.thumbnail {\n        pointer-events: none !important;;\n    }",
+        "start": 295,
         "regexps": [
-          "https:\\/\\/pimeyes.com\\/.{2}\\/search\\/.*"
+          "https:\\/\\/pimeyes.com\\/.{2}"
         ]
       }
     ],
+    "sourceCode": "/* ==UserStyle==\n@name           PimEyes Crack\n@namespace      github.com/PinkDev1/PimEyes-Crack-UserStyle\n@version        4.1.0\n@description    Allows easier use of the FREE version of PimEyes\n@author         PinkDev1\n==/UserStyle== */\n\n@-moz-document regexp(\"https:\\\\/\\\\/pimeyes.com\\\\/.{2}\") {\n\n    /*Un-blur the URLs*/\n    .blurred-source-url{\n        user-select: all !important;;\n    }\n\n    /*Make the URLs selectable, and visible*/\n    *.url{\n        filter: none !important;;\n        overflow: visible !important;;\n        user-select: initial !important;;\n        max-width: initial !important;;\n        pointer-events: none !important;;\n        position: initial !important;\n    }\n\n    /*Remove the Buy Premium overlay on images*/\n    .zoom {\n        display: none !important;;\n    }\n    \n    /*Remove the actions menu, so we can select the image*/\n    .actions {\n        display: none !important;;\n    }\n    \n\n    /*Hide UNLOCK buttons*/\n    button[type=\"button\"] {\n        display: none !important;;\n    }\n    \n    /*un-hide add picture button*/\n    button[class=\"spacer\"] {\n        display: inherit !important;;\n    }\n    \n    /*un-hide upload photo button*/\n    button[class=\"first\"], button[class=\"spacer upload\"], button[class=\"last\"]{\n        display: inherit !important;;\n    }\n    \n    /*Remove events from image*/\n    div.thumbnail {\n        pointer-events: none !important;;\n    }\n}",
     "usercssData": {
       "name": "PimEyes Crack",
       "namespace": "github.com/PinkDev1/PimEyes-Crack-UserStyle",
-      "version": "4.0.0",
+      "version": "4.1.0",
       "description": "Allows easier use of the FREE version of PimEyes",
       "author": "PinkDev1"
     },
     "author": "PinkDev1",
     "description": "Allows easier use of the FREE version of PimEyes",
     "name": "PimEyes Crack",
-    "updateDate": 1617391365200,
-    "_id": "10b44d35-c329-4470-b71c-2916696a878e",
-    "_rev": 1617391365200,
-    "id": 10,
     "installationUrl": "https://greasyfork.org/scripts/406062",
-    "originalDigest": "7d26744c44417ec81093ea69f7ba8bdb0c5ae0c5",
-    "etag": "W/\"bac2c2e94b3b2de966ffabfcc0e1cd78\""
-  }
+    "originalDigest": "97897727cc3a24de669cd672579598c3f8396ce0",
+    "_id": "65b61ee9-dfa3-4e5d-8ce4-d57ee735bd9c",
+    "_rev": 1623685477100,
+    "id": 1,
+    "etag": "W/\"0f8b19632b6f6396bd2ac6795b154fb7\"",
+    "updateDate": 1623685477100
+  },
 ]

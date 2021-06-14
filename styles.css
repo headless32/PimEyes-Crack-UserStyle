@@ -1,12 +1,12 @@
 /* ==UserStyle==
 @name           PimEyes Crack
 @namespace      github.com/PinkDev1/PimEyes-Crack-UserStyle
-@version        4.0.0
+@version        4.1.0
 @description    Allows easier use of the FREE version of PimEyes
 @author         PinkDev1
 ==/UserStyle== */
 
-@-moz-document regexp("https:\\/\\/pimeyes.com\\/.{2}\\/search\\/.*") {
+@-moz-document regexp("https:\\/\\/pimeyes.com\\/.{2}") {
 
     /*Un-blur the URLs*/
     .blurred-source-url{
@@ -41,6 +41,11 @@
     
     /*un-hide add picture button*/
     button[class="spacer"] {
+        display: inherit !important;;
+    }
+    
+    /*un-hide upload photo button*/
+    button[class="first"], button[class="spacer upload"], button[class="last"]{
         display: inherit !important;;
     }
     
