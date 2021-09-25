@@ -35,7 +35,7 @@ This crack won't bypass the search-limit; You'll have to use a VPN/Proxy. Just m
 
 In recent updates, they made it so everything but the face is blurred. *You'll have to crop the face, and reverse image search _that_* and hope to get the original picture. This crack will still help you download that blurred image though.
 
-The result URLs are obfuscated and cropped to 30 characters. Although this crack will un-blur, un-hide, and make these URLs selectable, we can't recover the original content of these URLs. It's up to you if you'll be able to get back the original URL by recognizing the domain/cdn format.
+The result URLs are obfuscated and cropped to **11** characters. Although this crack will un-blur, un-hide, and make these URLs selectable, we can't recover the original content of these URLs. It's up to you if you'll be able to get back the original URL by recognizing the domain/cdn format.
 
 ## Feedback
 
