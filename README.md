@@ -1,5 +1,8 @@
 # PimEyes-Crack/UserStyle                          
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FPinkDev1%2FPimEyes-Crack-UserStyle&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+[![Status](https://img.shields.io/badge/Status-Patched%20--%20Not%20working-%23800000)](https://github.com/PinkDev1/PimEyes-Crack-UserStyle/issues/10)
+
+**-> THIS CRACK NO LONGER WORKS, and will be replaced with a webextension (browser add-on) on january/february 2022. <-**
 
 This "Crack" is simply a couple of css styles that improve your experience while using the face-recognition service [pimeyes.com](https://pimeyes.com)
 
